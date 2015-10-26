@@ -5,4 +5,4 @@ by 猿族掘起
 前端:iOS
 后端:Java
 爬虫:Java
-识别服务:iOS
+识别服务:face++
