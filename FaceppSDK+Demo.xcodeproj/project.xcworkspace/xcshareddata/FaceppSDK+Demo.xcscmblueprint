@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "dd5b6027-c30c-45fa-97a7-85a70e95a131++1242",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dd5b6027-c30c-45fa-97a7-85a70e95a131++1242" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "dd5b6027-c30c-45fa-97a7-85a70e95a131++1242" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AC34F322-4C2E-486D-9701-C526E826A56A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "dd5b6027-c30c-45fa-97a7-85a70e95a131++1242" : "Hackathon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FaceppSDK+Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "facepp-ios-sdk-master\/Demos\/FaceppSDK+Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.2.200.138",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dd5b6027-c30c-45fa-97a7-85a70e95a131++1242"
+    }
+  ]
+}

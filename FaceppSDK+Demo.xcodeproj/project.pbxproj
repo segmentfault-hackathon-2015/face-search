@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AC4CE41BDBE42C00F526BC /* spot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21AC4CE31BDBE42C00F526BC /* spot.jpg */; settings = {ASSET_TAGS = (); }; };
+		21AC4CE71BDBE67200F526BC /* alburm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21AC4CE51BDBE67200F526BC /* alburm.jpg */; settings = {ASSET_TAGS = (); }; };
+		21AC4CE81BDBE67200F526BC /* takePhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21AC4CE61BDBE67200F526BC /* takePhoto.jpg */; settings = {ASSET_TAGS = (); }; };
+		21AC4CEC1BDC5C0200F526BC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21AC4CEB1BDC5C0200F526BC /* icon@2x.png */; settings = {ASSET_TAGS = (); }; };
+		C722222D1666371700D74087 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C722222C1666371700D74087 /* UIKit.framework */; };
+		C722222F1666371700D74087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C722222E1666371700D74087 /* Foundation.framework */; };
+		C72222311666371700D74087 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72222301666371700D74087 /* CoreGraphics.framework */; };
+		C72222371666371700D74087 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C72222351666371700D74087 /* InfoPlist.strings */; };
+		C72222391666371700D74087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C72222381666371700D74087 /* main.m */; };
+		C722223D1666371700D74087 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C722223C1666371700D74087 /* AppDelegate.m */; };
+		C722223F1666371700D74087 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C722223E1666371700D74087 /* Default.png */; };
+		C72222411666371700D74087 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C72222401666371700D74087 /* Default@2x.png */; };
+		C72222431666371700D74087 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C72222421666371700D74087 /* Default-568h@2x.png */; };
+		C756AA181718118A00531A73 /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9E61718118A00531A73 /* FaceppAPI.m */; };
+		C756AA191718118A00531A73 /* FaceppAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9E61718118A00531A73 /* FaceppAPI.m */; };
+		C756AA1A1718118A00531A73 /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9E91718118A00531A73 /* FaceppClient.m */; };
+		C756AA1B1718118A00531A73 /* FaceppClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9E91718118A00531A73 /* FaceppClient.m */; };
+		C756AA1C1718118A00531A73 /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9EB1718118A00531A73 /* FaceppDetection.m */; };
+		C756AA1D1718118A00531A73 /* FaceppDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9EB1718118A00531A73 /* FaceppDetection.m */; };
+		C756AA1E1718118A00531A73 /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9ED1718118A00531A73 /* FaceppFaceset.m */; };
+		C756AA1F1718118A00531A73 /* FaceppFaceset.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9ED1718118A00531A73 /* FaceppFaceset.m */; };
+		C756AA201718118A00531A73 /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9EF1718118A00531A73 /* FaceppGroup.m */; };
+		C756AA211718118A00531A73 /* FaceppGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9EF1718118A00531A73 /* FaceppGroup.m */; };
+		C756AA221718118A00531A73 /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F11718118A00531A73 /* FaceppGrouping.m */; };
+		C756AA231718118A00531A73 /* FaceppGrouping.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F11718118A00531A73 /* FaceppGrouping.m */; };
+		C756AA241718118A00531A73 /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F31718118A00531A73 /* FaceppInfo.m */; };
+		C756AA251718118A00531A73 /* FaceppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F31718118A00531A73 /* FaceppInfo.m */; };
+		C756AA261718118A00531A73 /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F51718118A00531A73 /* FaceppPerson.m */; };
+		C756AA271718118A00531A73 /* FaceppPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F51718118A00531A73 /* FaceppPerson.m */; };
+		C756AA281718118A00531A73 /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F71718118A00531A73 /* FaceppRecognition.m */; };
+		C756AA291718118A00531A73 /* FaceppRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F71718118A00531A73 /* FaceppRecognition.m */; };
+		C756AA2A1718118A00531A73 /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F91718118A00531A73 /* FaceppTrainer.m */; };
+		C756AA2B1718118A00531A73 /* FaceppTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9F91718118A00531A73 /* FaceppTrainer.m */; };
+		C756AA2C1718118A00531A73 /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9FC1718118A00531A73 /* FaceppError.m */; };
+		C756AA2D1718118A00531A73 /* FaceppError.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9FC1718118A00531A73 /* FaceppError.m */; };
+		C756AA2E1718118A00531A73 /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9FE1718118A00531A73 /* FaceppResult.m */; };
+		C756AA2F1718118A00531A73 /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C756A9FE1718118A00531A73 /* FaceppResult.m */; };
+		C756AA301718118A00531A73 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA011718118A00531A73 /* CDataScanner.m */; };
+		C756AA311718118A00531A73 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA011718118A00531A73 /* CDataScanner.m */; };
+		C756AA321718118A00531A73 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA041718118A00531A73 /* CFilteringJSONSerializer.m */; };
+		C756AA331718118A00531A73 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA041718118A00531A73 /* CFilteringJSONSerializer.m */; };
+		C756AA341718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA061718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m */; };
+		C756AA351718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA061718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m */; };
+		C756AA361718118A00531A73 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA081718118A00531A73 /* CJSONSerialization.m */; };
+		C756AA371718118A00531A73 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA081718118A00531A73 /* CJSONSerialization.m */; };
+		C756AA381718118A00531A73 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA0A1718118A00531A73 /* CJSONSerializedData.m */; };
+		C756AA391718118A00531A73 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA0A1718118A00531A73 /* CJSONSerializedData.m */; };
+		C756AA3A1718118A00531A73 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA0D1718118A00531A73 /* CDataScanner_Extensions.m */; };
+		C756AA3B1718118A00531A73 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA0D1718118A00531A73 /* CDataScanner_Extensions.m */; };
+		C756AA3C1718118A00531A73 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA0F1718118A00531A73 /* NSDictionary_JSONExtensions.m */; };
+		C756AA3D1718118A00531A73 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA0F1718118A00531A73 /* NSDictionary_JSONExtensions.m */; };
+		C756AA3E1718118A00531A73 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA121718118A00531A73 /* CJSONDeserializer.m */; };
+		C756AA3F1718118A00531A73 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA121718118A00531A73 /* CJSONDeserializer.m */; };
+		C756AA401718118A00531A73 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA141718118A00531A73 /* CJSONScanner.m */; };
+		C756AA411718118A00531A73 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA141718118A00531A73 /* CJSONScanner.m */; };
+		C756AA421718118A00531A73 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA161718118A00531A73 /* CJSONSerializer.m */; };
+		C756AA431718118A00531A73 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C756AA161718118A00531A73 /* CJSONSerializer.m */; };
+		C7CE8D64166F4A25003E07C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C722222C1666371700D74087 /* UIKit.framework */; };
+		C7CE8D65166F4A25003E07C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C722222E1666371700D74087 /* Foundation.framework */; };
+		C7CE8D66166F4A25003E07C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C72222301666371700D74087 /* CoreGraphics.framework */; };
+		C7CE8D6C166F4A25003E07C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7CE8D6A166F4A25003E07C5 /* InfoPlist.strings */; };
+		C7CE8D6E166F4A25003E07C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE8D6D166F4A25003E07C5 /* main.m */; };
+		C7CE8D72166F4A25003E07C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE8D71166F4A25003E07C5 /* AppDelegate.m */; };
+		C7CE8D74166F4A25003E07C5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7CE8D73166F4A25003E07C5 /* Default.png */; };
+		C7CE8D76166F4A25003E07C5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7CE8D75166F4A25003E07C5 /* Default@2x.png */; };
+		C7CE8D78166F4A25003E07C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7CE8D77166F4A25003E07C5 /* Default-568h@2x.png */; };
+		C7CE8D7B166F4A25003E07C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE8D7A166F4A25003E07C5 /* ViewController.m */; };
+		C7CE8D7E166F4A25003E07C5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7CE8D7C166F4A25003E07C5 /* ViewController.xib */; };
+		C7E5A15D1671D6E300CAA939 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5A15C1671D6E300CAA939 /* MBProgressHUD.m */; };
+		C7EB0A10166F83D0000CF13D /* powered_by.png in Resources */ = {isa = PBXBuildFile; fileRef = C7EB0A0F166F83D0000CF13D /* powered_by.png */; };
+		F7E5B0051BDBA91A0041D6DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E5B0041BDBA91A0041D6DE /* SystemConfiguration.framework */; };
+		F7E5B08E1BDBB15A0041D6DE /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B06D1BDBB15A0041D6DE /* UMSocialLocalizable.strings */; };
+		F7E5B0901BDBB15A0041D6DE /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B07D1BDBB15A0041D6DE /* UMSCommentDetailController.xib */; };
+		F7E5B0911BDBB15A0041D6DE /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B07E1BDBB15A0041D6DE /* UMSCommentInputController.xib */; };
+		F7E5B0921BDBB15A0041D6DE /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B07F1BDBB15A0041D6DE /* UMSCommentInputControlleriPad.xib */; };
+		F7E5B0931BDBB15A0041D6DE /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0801BDBB15A0041D6DE /* UMShareEditViewController.xib */; };
+		F7E5B0941BDBB15A0041D6DE /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0811BDBB15A0041D6DE /* UMShareEditViewControlleriPad.xib */; };
+		F7E5B0951BDBB15A0041D6DE /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0821BDBB15A0041D6DE /* UMSLoginViewController.xib */; };
+		F7E5B0961BDBB15A0041D6DE /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0831BDBB15A0041D6DE /* UMSnsAccountViewController.xib */; };
+		F7E5B0971BDBB15A0041D6DE /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0841BDBB15A0041D6DE /* UMSShareListController.xib */; };
+		F7E5B0981BDBB15A0041D6DE /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0851BDBB15A0041D6DE /* UMSocialSDKResourcesNew.bundle */; };
+		F7E5B0DC1BDBBFDC0041D6DE /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E5B0DB1BDBBFDC0041D6DE /* ImageViewController.m */; };
+		F7E5B0DE1BDBC4DF0041D6DE /* libUMSocial_Sdk_4.2.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E5B0DD1BDBC4DF0041D6DE /* libUMSocial_Sdk_4.2.5.a */; };
+		F7E5B0E11BDBC4F40041D6DE /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E5B0DF1BDBC4F40041D6DE /* libSocialWechat.a */; };
+		F7E5B0E21BDBC4F40041D6DE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E5B0E01BDBC4F40041D6DE /* libWeChatSDK.a */; };
+		F7E5B0E41BDBC70A0041D6DE /* 26244-HdQpaA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B0E31BDBC70A0041D6DE /* 26244-HdQpaA.jpg */; };
+		F7E5B1041BDBD6C20041D6DE /* 26.pic_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B1021BDBD6C20041D6DE /* 26.pic_hd.jpg */; };
+		F7E5B1051BDBD6C20041D6DE /* 30.pic_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B1031BDBD6C20041D6DE /* 30.pic_hd.jpg */; };
+		F7E5B1571BDBF1FF0041D6DE /* 39.pic_hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7E5B1561BDBF1FF0041D6DE /* 39.pic_hd.jpg */; };
+		F7E5B15A1BDBF6920041D6DE /* YXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E5B1591BDBF6920041D6DE /* YXLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21AC4CE31BDBE42C00F526BC /* spot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spot.jpg; sourceTree = "<group>"; };
+		21AC4CE51BDBE67200F526BC /* alburm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alburm.jpg; sourceTree = "<group>"; };
+		21AC4CE61BDBE67200F526BC /* takePhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takePhoto.jpg; sourceTree = "<group>"; };
+		21AC4CEB1BDC5C0200F526BC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C72222281666371700D74087 /* FaceppSDK+Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FaceppSDK+Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C722222C1666371700D74087 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C722222E1666371700D74087 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C72222301666371700D74087 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C72222341666371700D74087 /* FaceppSDK+Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceppSDK+Demo-Info.plist"; sourceTree = "<group>"; };
+		C72222361666371700D74087 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C72222381666371700D74087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C722223A1666371700D74087 /* FaceppSDK+Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceppSDK+Demo-Prefix.pch"; sourceTree = "<group>"; };
+		C722223B1666371700D74087 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C722223C1666371700D74087 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C722223E1666371700D74087 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C72222401666371700D74087 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C72222421666371700D74087 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C756A9E51718118A00531A73 /* FaceppAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppAPI.h; sourceTree = "<group>"; };
+		C756A9E61718118A00531A73 /* FaceppAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppAPI.m; sourceTree = "<group>"; };
+		C756A9E81718118A00531A73 /* FaceppClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppClient.h; sourceTree = "<group>"; };
+		C756A9E91718118A00531A73 /* FaceppClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppClient.m; sourceTree = "<group>"; };
+		C756A9EA1718118A00531A73 /* FaceppDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppDetection.h; sourceTree = "<group>"; };
+		C756A9EB1718118A00531A73 /* FaceppDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppDetection.m; sourceTree = "<group>"; };
+		C756A9EC1718118A00531A73 /* FaceppFaceset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppFaceset.h; sourceTree = "<group>"; };
+		C756A9ED1718118A00531A73 /* FaceppFaceset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppFaceset.m; sourceTree = "<group>"; };
+		C756A9EE1718118A00531A73 /* FaceppGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGroup.h; sourceTree = "<group>"; };
+		C756A9EF1718118A00531A73 /* FaceppGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGroup.m; sourceTree = "<group>"; };
+		C756A9F01718118A00531A73 /* FaceppGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppGrouping.h; sourceTree = "<group>"; };
+		C756A9F11718118A00531A73 /* FaceppGrouping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppGrouping.m; sourceTree = "<group>"; };
+		C756A9F21718118A00531A73 /* FaceppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppInfo.h; sourceTree = "<group>"; };
+		C756A9F31718118A00531A73 /* FaceppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppInfo.m; sourceTree = "<group>"; };
+		C756A9F41718118A00531A73 /* FaceppPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppPerson.h; sourceTree = "<group>"; };
+		C756A9F51718118A00531A73 /* FaceppPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppPerson.m; sourceTree = "<group>"; };
+		C756A9F61718118A00531A73 /* FaceppRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppRecognition.h; sourceTree = "<group>"; };
+		C756A9F71718118A00531A73 /* FaceppRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppRecognition.m; sourceTree = "<group>"; };
+		C756A9F81718118A00531A73 /* FaceppTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppTrainer.h; sourceTree = "<group>"; };
+		C756A9F91718118A00531A73 /* FaceppTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppTrainer.m; sourceTree = "<group>"; };
+		C756A9FB1718118A00531A73 /* FaceppError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppError.h; sourceTree = "<group>"; };
+		C756A9FC1718118A00531A73 /* FaceppError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppError.m; sourceTree = "<group>"; };
+		C756A9FD1718118A00531A73 /* FaceppResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceppResult.h; sourceTree = "<group>"; };
+		C756A9FE1718118A00531A73 /* FaceppResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceppResult.m; sourceTree = "<group>"; };
+		C756AA001718118A00531A73 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		C756AA011718118A00531A73 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		C756AA031718118A00531A73 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		C756AA041718118A00531A73 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		C756AA051718118A00531A73 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		C756AA061718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		C756AA071718118A00531A73 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		C756AA081718118A00531A73 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		C756AA091718118A00531A73 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		C756AA0A1718118A00531A73 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		C756AA0C1718118A00531A73 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		C756AA0D1718118A00531A73 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		C756AA0E1718118A00531A73 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		C756AA0F1718118A00531A73 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		C756AA111718118A00531A73 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		C756AA121718118A00531A73 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		C756AA131718118A00531A73 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		C756AA141718118A00531A73 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		C756AA151718118A00531A73 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		C756AA161718118A00531A73 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		C756AA171718118A00531A73 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		C7CE8D62166F4A25003E07C5 /* FaceppPhotoPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceppPhotoPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CE8D69166F4A25003E07C5 /* FaceppPhotoPickerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceppPhotoPickerDemo-Info.plist"; sourceTree = "<group>"; };
+		C7CE8D6B166F4A25003E07C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7CE8D6D166F4A25003E07C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7CE8D6F166F4A25003E07C5 /* FaceppPhotoPickerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceppPhotoPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C7CE8D70166F4A25003E07C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7CE8D71166F4A25003E07C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7CE8D73166F4A25003E07C5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C7CE8D75166F4A25003E07C5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C7CE8D77166F4A25003E07C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C7CE8D79166F4A25003E07C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7CE8D7A166F4A25003E07C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7CE8D7D166F4A25003E07C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C7E2B33117F959030084EC89 /* APIKey+APISecret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APIKey+APISecret.h"; sourceTree = SOURCE_ROOT; };
+		C7E5A15B1671D6E300CAA939 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C7E5A15C1671D6E300CAA939 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C7EB0A0F166F83D0000CF13D /* powered_by.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powered_by.png; sourceTree = "<group>"; };
+		F7E5AFC71BDBA72F0041D6DE /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocialSina.a; path = FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Sina/libSocialSina.a; sourceTree = "<group>"; };
+		F7E5AFC91BDBA73C0041D6DE /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a; sourceTree = "<group>"; };
+		F7E5AFCB1BDBA74B0041D6DE /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocialWechat.a; path = FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat/libSocialWechat.a; sourceTree = "<group>"; };
+		F7E5AFCC1BDBA74B0041D6DE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat/libWeChatSDK.a; sourceTree = "<group>"; };
+		F7E5AFCF1BDBA75E0041D6DE /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUMSocial_Sdk_4.2.3.a; path = FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3/libUMSocial_Sdk_4.2.3.a; sourceTree = "<group>"; };
+		F7E5B0041BDBA91A0041D6DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7E5B06E1BDBB15A0041D6DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		F7E5B0701BDBB15A0041D6DE /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		F7E5B0711BDBB15A0041D6DE /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		F7E5B0721BDBB15A0041D6DE /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		F7E5B0731BDBB15A0041D6DE /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		F7E5B0741BDBB15A0041D6DE /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		F7E5B0751BDBB15A0041D6DE /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		F7E5B0761BDBB15A0041D6DE /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		F7E5B0771BDBB15A0041D6DE /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		F7E5B0781BDBB15A0041D6DE /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		F7E5B0791BDBB15A0041D6DE /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		F7E5B07A1BDBB15A0041D6DE /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		F7E5B07D1BDBB15A0041D6DE /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		F7E5B07E1BDBB15A0041D6DE /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		F7E5B07F1BDBB15A0041D6DE /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		F7E5B0801BDBB15A0041D6DE /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		F7E5B0811BDBB15A0041D6DE /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		F7E5B0821BDBB15A0041D6DE /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		F7E5B0831BDBB15A0041D6DE /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		F7E5B0841BDBB15A0041D6DE /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		F7E5B0851BDBB15A0041D6DE /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		F7E5B0861BDBB15A0041D6DE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		F7E5B08B1BDBB15A0041D6DE /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		F7E5B08C1BDBB15A0041D6DE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F7E5B08D1BDBB15A0041D6DE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F7E5B0DA1BDBBFDC0041D6DE /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		F7E5B0DB1BDBBFDC0041D6DE /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		F7E5B0DD1BDBC4DF0041D6DE /* libUMSocial_Sdk_4.2.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.5.a; sourceTree = "<group>"; };
+		F7E5B0DF1BDBC4F40041D6DE /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		F7E5B0E01BDBC4F40041D6DE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		F7E5B0E31BDBC70A0041D6DE /* 26244-HdQpaA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "26244-HdQpaA.jpg"; sourceTree = "<group>"; };
+		F7E5B1021BDBD6C20041D6DE /* 26.pic_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.pic_hd.jpg; sourceTree = "<group>"; };
+		F7E5B1031BDBD6C20041D6DE /* 30.pic_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.pic_hd.jpg; sourceTree = "<group>"; };
+		F7E5B1561BDBF1FF0041D6DE /* 39.pic_hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 39.pic_hd.jpg; sourceTree = "<group>"; };
+		F7E5B1581BDBF6920041D6DE /* YXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXLabel.h; sourceTree = "<group>"; };
+		F7E5B1591BDBF6920041D6DE /* YXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C72222251666371700D74087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C722222D1666371700D74087 /* UIKit.framework in Frameworks */,
+				C722222F1666371700D74087 /* Foundation.framework in Frameworks */,
+				C72222311666371700D74087 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE8D5F166F4A25003E07C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E5B0E21BDBC4F40041D6DE /* libWeChatSDK.a in Frameworks */,
+				F7E5B0051BDBA91A0041D6DE /* SystemConfiguration.framework in Frameworks */,
+				F7E5B0DE1BDBC4DF0041D6DE /* libUMSocial_Sdk_4.2.5.a in Frameworks */,
+				C7CE8D64166F4A25003E07C5 /* UIKit.framework in Frameworks */,
+				C7CE8D65166F4A25003E07C5 /* Foundation.framework in Frameworks */,
+				F7E5B0E11BDBC4F40041D6DE /* libSocialWechat.a in Frameworks */,
+				C7CE8D66166F4A25003E07C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C722221D1666371700D74087 = {
+			isa = PBXGroup;
+			children = (
+				F7E5B1561BDBF1FF0041D6DE /* 39.pic_hd.jpg */,
+				21AC4CEB1BDC5C0200F526BC /* icon@2x.png */,
+				21AC4CE31BDBE42C00F526BC /* spot.jpg */,
+				C722222E1666371700D74087 /* Foundation.framework */,
+				21AC4CE51BDBE67200F526BC /* alburm.jpg */,
+				21AC4CE61BDBE67200F526BC /* takePhoto.jpg */,
+				F7E5B1021BDBD6C20041D6DE /* 26.pic_hd.jpg */,
+				F7E5B1031BDBD6C20041D6DE /* 30.pic_hd.jpg */,
+				F7E5B06C1BDBB15A0041D6DE /* UMSocial_Sdk_4.2.5 */,
+				F7E5B0871BDBB15A0041D6DE /* UMSocial_Sdk_Extra_Frameworks */,
+				C756A9E41718118A00531A73 /* FaceppSDK */,
+				C72222321666371700D74087 /* FaceppDemo */,
+				C7CE8D67166F4A25003E07C5 /* FaceppPhotoPickerDemo */,
+				C722222B1666371700D74087 /* Frameworks */,
+				C72222291666371700D74087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C72222291666371700D74087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C72222281666371700D74087 /* FaceppSDK+Demo.app */,
+				C7CE8D62166F4A25003E07C5 /* FaceppPhotoPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C722222B1666371700D74087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B0041BDBA91A0041D6DE /* SystemConfiguration.framework */,
+				F7E5AFCF1BDBA75E0041D6DE /* libUMSocial_Sdk_4.2.3.a */,
+				F7E5AFCB1BDBA74B0041D6DE /* libSocialWechat.a */,
+				F7E5AFCC1BDBA74B0041D6DE /* libWeChatSDK.a */,
+				F7E5AFC91BDBA73C0041D6DE /* libSocialQQ.a */,
+				F7E5AFC71BDBA72F0041D6DE /* libSocialSina.a */,
+				C722222C1666371700D74087 /* UIKit.framework */,
+				C72222301666371700D74087 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72222321666371700D74087 /* FaceppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C7E2B33117F959030084EC89 /* APIKey+APISecret.h */,
+				C722223B1666371700D74087 /* AppDelegate.h */,
+				C722223C1666371700D74087 /* AppDelegate.m */,
+				C72222331666371700D74087 /* Supporting Files */,
+			);
+			path = FaceppDemo;
+			sourceTree = "<group>";
+		};
+		C72222331666371700D74087 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C72222341666371700D74087 /* FaceppSDK+Demo-Info.plist */,
+				C72222351666371700D74087 /* InfoPlist.strings */,
+				C72222381666371700D74087 /* main.m */,
+				C722223A1666371700D74087 /* FaceppSDK+Demo-Prefix.pch */,
+				C722223E1666371700D74087 /* Default.png */,
+				C72222401666371700D74087 /* Default@2x.png */,
+				C72222421666371700D74087 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C756A9E41718118A00531A73 /* FaceppSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C756A9E51718118A00531A73 /* FaceppAPI.h */,
+				C756A9E61718118A00531A73 /* FaceppAPI.m */,
+				C756A9E71718118A00531A73 /* FaceppAPISource */,
+				C756A9FA1718118A00531A73 /* FaceppResult */,
+				C756A9FF1718118A00531A73 /* TouchJSON */,
+			);
+			name = FaceppSDK;
+			path = ../FaceppSDK;
+			sourceTree = "<group>";
+		};
+		C756A9E71718118A00531A73 /* FaceppAPISource */ = {
+			isa = PBXGroup;
+			children = (
+				C756A9E81718118A00531A73 /* FaceppClient.h */,
+				C756A9E91718118A00531A73 /* FaceppClient.m */,
+				C756A9EA1718118A00531A73 /* FaceppDetection.h */,
+				C756A9EB1718118A00531A73 /* FaceppDetection.m */,
+				C756A9EC1718118A00531A73 /* FaceppFaceset.h */,
+				C756A9ED1718118A00531A73 /* FaceppFaceset.m */,
+				C756A9EE1718118A00531A73 /* FaceppGroup.h */,
+				C756A9EF1718118A00531A73 /* FaceppGroup.m */,
+				C756A9F01718118A00531A73 /* FaceppGrouping.h */,
+				C756A9F11718118A00531A73 /* FaceppGrouping.m */,
+				C756A9F21718118A00531A73 /* FaceppInfo.h */,
+				C756A9F31718118A00531A73 /* FaceppInfo.m */,
+				C756A9F41718118A00531A73 /* FaceppPerson.h */,
+				C756A9F51718118A00531A73 /* FaceppPerson.m */,
+				C756A9F61718118A00531A73 /* FaceppRecognition.h */,
+				C756A9F71718118A00531A73 /* FaceppRecognition.m */,
+				C756A9F81718118A00531A73 /* FaceppTrainer.h */,
+				C756A9F91718118A00531A73 /* FaceppTrainer.m */,
+			);
+			path = FaceppAPISource;
+			sourceTree = "<group>";
+		};
+		C756A9FA1718118A00531A73 /* FaceppResult */ = {
+			isa = PBXGroup;
+			children = (
+				C756A9FB1718118A00531A73 /* FaceppError.h */,
+				C756A9FC1718118A00531A73 /* FaceppError.m */,
+				C756A9FD1718118A00531A73 /* FaceppResult.h */,
+				C756A9FE1718118A00531A73 /* FaceppResult.m */,
+			);
+			path = FaceppResult;
+			sourceTree = "<group>";
+		};
+		C756A9FF1718118A00531A73 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				C756AA001718118A00531A73 /* CDataScanner.h */,
+				C756AA011718118A00531A73 /* CDataScanner.m */,
+				C756AA021718118A00531A73 /* Experimental */,
+				C756AA0B1718118A00531A73 /* Extensions */,
+				C756AA101718118A00531A73 /* JSON */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		C756AA021718118A00531A73 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				C756AA031718118A00531A73 /* CFilteringJSONSerializer.h */,
+				C756AA041718118A00531A73 /* CFilteringJSONSerializer.m */,
+				C756AA051718118A00531A73 /* CJSONDeserializer_BlocksExtensions.h */,
+				C756AA061718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m */,
+				C756AA071718118A00531A73 /* CJSONSerialization.h */,
+				C756AA081718118A00531A73 /* CJSONSerialization.m */,
+				C756AA091718118A00531A73 /* CJSONSerializedData.h */,
+				C756AA0A1718118A00531A73 /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		C756AA0B1718118A00531A73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C756AA0C1718118A00531A73 /* CDataScanner_Extensions.h */,
+				C756AA0D1718118A00531A73 /* CDataScanner_Extensions.m */,
+				C756AA0E1718118A00531A73 /* NSDictionary_JSONExtensions.h */,
+				C756AA0F1718118A00531A73 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C756AA101718118A00531A73 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C756AA111718118A00531A73 /* CJSONDeserializer.h */,
+				C756AA121718118A00531A73 /* CJSONDeserializer.m */,
+				C756AA131718118A00531A73 /* CJSONScanner.h */,
+				C756AA141718118A00531A73 /* CJSONScanner.m */,
+				C756AA151718118A00531A73 /* CJSONSerializer.h */,
+				C756AA161718118A00531A73 /* CJSONSerializer.m */,
+				C756AA171718118A00531A73 /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		C7CE8D67166F4A25003E07C5 /* FaceppPhotoPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B0E31BDBC70A0041D6DE /* 26244-HdQpaA.jpg */,
+				C7E5A15B1671D6E300CAA939 /* MBProgressHUD.h */,
+				C7E5A15C1671D6E300CAA939 /* MBProgressHUD.m */,
+				C7CE8D70166F4A25003E07C5 /* AppDelegate.h */,
+				C7CE8D71166F4A25003E07C5 /* AppDelegate.m */,
+				C7CE8D79166F4A25003E07C5 /* ViewController.h */,
+				C7CE8D7A166F4A25003E07C5 /* ViewController.m */,
+				F7E5B0DA1BDBBFDC0041D6DE /* ImageViewController.h */,
+				F7E5B0DB1BDBBFDC0041D6DE /* ImageViewController.m */,
+				F7E5B1581BDBF6920041D6DE /* YXLabel.h */,
+				F7E5B1591BDBF6920041D6DE /* YXLabel.m */,
+				C7CE8D7C166F4A25003E07C5 /* ViewController.xib */,
+				C7CE8D68166F4A25003E07C5 /* Supporting Files */,
+			);
+			path = FaceppPhotoPickerDemo;
+			sourceTree = "<group>";
+		};
+		C7CE8D68166F4A25003E07C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EB0A0F166F83D0000CF13D /* powered_by.png */,
+				C7CE8D69166F4A25003E07C5 /* FaceppPhotoPickerDemo-Info.plist */,
+				C7CE8D6A166F4A25003E07C5 /* InfoPlist.strings */,
+				C7CE8D6D166F4A25003E07C5 /* main.m */,
+				C7CE8D6F166F4A25003E07C5 /* FaceppPhotoPickerDemo-Prefix.pch */,
+				C7CE8D73166F4A25003E07C5 /* Default.png */,
+				C7CE8D75166F4A25003E07C5 /* Default@2x.png */,
+				C7CE8D77166F4A25003E07C5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7E5B06C1BDBB15A0041D6DE /* UMSocial_Sdk_4.2.5 */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B0DD1BDBC4DF0041D6DE /* libUMSocial_Sdk_4.2.5.a */,
+				F7E5B06D1BDBB15A0041D6DE /* UMSocialLocalizable.strings */,
+				F7E5B06F1BDBB15A0041D6DE /* Header */,
+				F7E5B07C1BDBB15A0041D6DE /* SocialSDKXib */,
+				F7E5B0851BDBB15A0041D6DE /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.2.5;
+			sourceTree = "<group>";
+		};
+		F7E5B06F1BDBB15A0041D6DE /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B0701BDBB15A0041D6DE /* UMSocial.h */,
+				F7E5B0711BDBB15A0041D6DE /* UMSocialAccountManager.h */,
+				F7E5B0721BDBB15A0041D6DE /* UMSocialBar.h */,
+				F7E5B0731BDBB15A0041D6DE /* UMSocialConfig.h */,
+				F7E5B0741BDBB15A0041D6DE /* UMSocialControllerService.h */,
+				F7E5B0751BDBB15A0041D6DE /* UMSocialControllerServiceComment.h */,
+				F7E5B0761BDBB15A0041D6DE /* UMSocialData.h */,
+				F7E5B0771BDBB15A0041D6DE /* UMSocialDataService.h */,
+				F7E5B0781BDBB15A0041D6DE /* UMSocialSnsData.h */,
+				F7E5B0791BDBB15A0041D6DE /* UMSocialSnsPlatformManager.h */,
+				F7E5B07A1BDBB15A0041D6DE /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F7E5B07C1BDBB15A0041D6DE /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B07D1BDBB15A0041D6DE /* UMSCommentDetailController.xib */,
+				F7E5B07E1BDBB15A0041D6DE /* UMSCommentInputController.xib */,
+				F7E5B07F1BDBB15A0041D6DE /* UMSCommentInputControlleriPad.xib */,
+				F7E5B0801BDBB15A0041D6DE /* UMShareEditViewController.xib */,
+				F7E5B0811BDBB15A0041D6DE /* UMShareEditViewControlleriPad.xib */,
+				F7E5B0821BDBB15A0041D6DE /* UMSLoginViewController.xib */,
+				F7E5B0831BDBB15A0041D6DE /* UMSnsAccountViewController.xib */,
+				F7E5B0841BDBB15A0041D6DE /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		F7E5B0871BDBB15A0041D6DE /* UMSocial_Sdk_Extra_Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B0881BDBB15A0041D6DE /* Wechat */,
+			);
+			path = UMSocial_Sdk_Extra_Frameworks;
+			sourceTree = "<group>";
+		};
+		F7E5B0881BDBB15A0041D6DE /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5B0DF1BDBC4F40041D6DE /* libSocialWechat.a */,
+				F7E5B0E01BDBC4F40041D6DE /* libWeChatSDK.a */,
+				F7E5B08B1BDBB15A0041D6DE /* UMSocialWechatHandler.h */,
+				F7E5B08C1BDBB15A0041D6DE /* WXApi.h */,
+				F7E5B08D1BDBB15A0041D6DE /* WXApiObject.h */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C72222271666371700D74087 /* FaceppSDK+Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72222461666371700D74087 /* Build configuration list for PBXNativeTarget "FaceppSDK+Demo" */;
+			buildPhases = (
+				C72222241666371700D74087 /* Sources */,
+				C72222251666371700D74087 /* Frameworks */,
+				C72222261666371700D74087 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FaceppSDK+Demo";
+			productName = FaceppDemo;
+			productReference = C72222281666371700D74087 /* FaceppSDK+Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7CE8D61166F4A25003E07C5 /* FaceppPhotoPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CE8D7F166F4A25003E07C5 /* Build configuration list for PBXNativeTarget "FaceppPhotoPickerDemo" */;
+			buildPhases = (
+				C7CE8D5E166F4A25003E07C5 /* Sources */,
+				C7CE8D5F166F4A25003E07C5 /* Frameworks */,
+				C7CE8D60166F4A25003E07C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceppPhotoPickerDemo;
+			productName = FaceppPhotoPickerDemo;
+			productReference = C7CE8D62166F4A25003E07C5 /* FaceppPhotoPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C722221F1666371700D74087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Megvii;
+			};
+			buildConfigurationList = C72222221666371700D74087 /* Build configuration list for PBXProject "FaceppSDK+Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = C722221D1666371700D74087;
+			productRefGroup = C72222291666371700D74087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CE8D61166F4A25003E07C5 /* FaceppPhotoPickerDemo */,
+				C72222271666371700D74087 /* FaceppSDK+Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C72222261666371700D74087 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72222371666371700D74087 /* InfoPlist.strings in Resources */,
+				C722223F1666371700D74087 /* Default.png in Resources */,
+				C72222411666371700D74087 /* Default@2x.png in Resources */,
+				C72222431666371700D74087 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE8D60166F4A25003E07C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AC4CE71BDBE67200F526BC /* alburm.jpg in Resources */,
+				F7E5B0921BDBB15A0041D6DE /* UMSCommentInputControlleriPad.xib in Resources */,
+				F7E5B0961BDBB15A0041D6DE /* UMSnsAccountViewController.xib in Resources */,
+				C7CE8D6C166F4A25003E07C5 /* InfoPlist.strings in Resources */,
+				C7CE8D74166F4A25003E07C5 /* Default.png in Resources */,
+				21AC4CEC1BDC5C0200F526BC /* icon@2x.png in Resources */,
+				C7CE8D76166F4A25003E07C5 /* Default@2x.png in Resources */,
+				C7CE8D78166F4A25003E07C5 /* Default-568h@2x.png in Resources */,
+				C7CE8D7E166F4A25003E07C5 /* ViewController.xib in Resources */,
+				21AC4CE41BDBE42C00F526BC /* spot.jpg in Resources */,
+				F7E5B0941BDBB15A0041D6DE /* UMShareEditViewControlleriPad.xib in Resources */,
+				F7E5B0E41BDBC70A0041D6DE /* 26244-HdQpaA.jpg in Resources */,
+				F7E5B0971BDBB15A0041D6DE /* UMSShareListController.xib in Resources */,
+				F7E5B08E1BDBB15A0041D6DE /* UMSocialLocalizable.strings in Resources */,
+				21AC4CE81BDBE67200F526BC /* takePhoto.jpg in Resources */,
+				F7E5B0901BDBB15A0041D6DE /* UMSCommentDetailController.xib in Resources */,
+				F7E5B0911BDBB15A0041D6DE /* UMSCommentInputController.xib in Resources */,
+				F7E5B0981BDBB15A0041D6DE /* UMSocialSDKResourcesNew.bundle in Resources */,
+				C7EB0A10166F83D0000CF13D /* powered_by.png in Resources */,
+				F7E5B1051BDBD6C20041D6DE /* 30.pic_hd.jpg in Resources */,
+				F7E5B0931BDBB15A0041D6DE /* UMShareEditViewController.xib in Resources */,
+				F7E5B1041BDBD6C20041D6DE /* 26.pic_hd.jpg in Resources */,
+				F7E5B1571BDBF1FF0041D6DE /* 39.pic_hd.jpg in Resources */,
+				F7E5B0951BDBB15A0041D6DE /* UMSLoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C72222241666371700D74087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72222391666371700D74087 /* main.m in Sources */,
+				C722223D1666371700D74087 /* AppDelegate.m in Sources */,
+				C756AA181718118A00531A73 /* FaceppAPI.m in Sources */,
+				C756AA1A1718118A00531A73 /* FaceppClient.m in Sources */,
+				C756AA1C1718118A00531A73 /* FaceppDetection.m in Sources */,
+				C756AA1E1718118A00531A73 /* FaceppFaceset.m in Sources */,
+				C756AA201718118A00531A73 /* FaceppGroup.m in Sources */,
+				C756AA221718118A00531A73 /* FaceppGrouping.m in Sources */,
+				C756AA241718118A00531A73 /* FaceppInfo.m in Sources */,
+				C756AA261718118A00531A73 /* FaceppPerson.m in Sources */,
+				C756AA281718118A00531A73 /* FaceppRecognition.m in Sources */,
+				C756AA2A1718118A00531A73 /* FaceppTrainer.m in Sources */,
+				C756AA2C1718118A00531A73 /* FaceppError.m in Sources */,
+				C756AA2E1718118A00531A73 /* FaceppResult.m in Sources */,
+				C756AA301718118A00531A73 /* CDataScanner.m in Sources */,
+				C756AA321718118A00531A73 /* CFilteringJSONSerializer.m in Sources */,
+				C756AA341718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				C756AA361718118A00531A73 /* CJSONSerialization.m in Sources */,
+				C756AA381718118A00531A73 /* CJSONSerializedData.m in Sources */,
+				C756AA3A1718118A00531A73 /* CDataScanner_Extensions.m in Sources */,
+				C756AA3C1718118A00531A73 /* NSDictionary_JSONExtensions.m in Sources */,
+				C756AA3E1718118A00531A73 /* CJSONDeserializer.m in Sources */,
+				C756AA401718118A00531A73 /* CJSONScanner.m in Sources */,
+				C756AA421718118A00531A73 /* CJSONSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CE8D5E166F4A25003E07C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CE8D6E166F4A25003E07C5 /* main.m in Sources */,
+				C7CE8D72166F4A25003E07C5 /* AppDelegate.m in Sources */,
+				C7CE8D7B166F4A25003E07C5 /* ViewController.m in Sources */,
+				C7E5A15D1671D6E300CAA939 /* MBProgressHUD.m in Sources */,
+				C756AA191718118A00531A73 /* FaceppAPI.m in Sources */,
+				C756AA1B1718118A00531A73 /* FaceppClient.m in Sources */,
+				F7E5B0DC1BDBBFDC0041D6DE /* ImageViewController.m in Sources */,
+				C756AA1D1718118A00531A73 /* FaceppDetection.m in Sources */,
+				C756AA1F1718118A00531A73 /* FaceppFaceset.m in Sources */,
+				C756AA211718118A00531A73 /* FaceppGroup.m in Sources */,
+				C756AA231718118A00531A73 /* FaceppGrouping.m in Sources */,
+				C756AA251718118A00531A73 /* FaceppInfo.m in Sources */,
+				C756AA271718118A00531A73 /* FaceppPerson.m in Sources */,
+				C756AA291718118A00531A73 /* FaceppRecognition.m in Sources */,
+				C756AA2B1718118A00531A73 /* FaceppTrainer.m in Sources */,
+				C756AA2D1718118A00531A73 /* FaceppError.m in Sources */,
+				C756AA2F1718118A00531A73 /* FaceppResult.m in Sources */,
+				C756AA311718118A00531A73 /* CDataScanner.m in Sources */,
+				C756AA331718118A00531A73 /* CFilteringJSONSerializer.m in Sources */,
+				C756AA351718118A00531A73 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				C756AA371718118A00531A73 /* CJSONSerialization.m in Sources */,
+				F7E5B15A1BDBF6920041D6DE /* YXLabel.m in Sources */,
+				C756AA391718118A00531A73 /* CJSONSerializedData.m in Sources */,
+				C756AA3B1718118A00531A73 /* CDataScanner_Extensions.m in Sources */,
+				C756AA3D1718118A00531A73 /* NSDictionary_JSONExtensions.m in Sources */,
+				C756AA3F1718118A00531A73 /* CJSONDeserializer.m in Sources */,
+				C756AA411718118A00531A73 /* CJSONScanner.m in Sources */,
+				C756AA431718118A00531A73 /* CJSONSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C72222351666371700D74087 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C72222361666371700D74087 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7CE8D6A166F4A25003E07C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CE8D6B166F4A25003E07C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7CE8D7C166F4A25003E07C5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CE8D7D166F4A25003E07C5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		F7E5B06D1BDBB15A0041D6DE /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E5B06E1BDBB15A0041D6DE /* en */,
+				F7E5B0861BDBB15A0041D6DE /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C72222441666371700D74087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C72222451666371700D74087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C72222471666371700D74087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceppDemo/FaceppSDK+Demo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
+				PRODUCT_NAME = "FaceppSDK+Demo";
+				PROVISIONING_PROFILE = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C72222481666371700D74087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceppDemo/FaceppSDK+Demo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
+				PRODUCT_NAME = "FaceppSDK+Demo";
+				PROVISIONING_PROFILE = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7CE8D80166F4A25003E07C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.5",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.2",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/FaceppPhotoPickerDemo/UMSocial_Sdk_4.2.5",
+					"$(PROJECT_DIR)/FaceppPhotoPickerDemo/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigerEN.TXTBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7CE8D81166F4A25003E07C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FaceppPhotoPickerDemo/FaceppPhotoPickerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/FaceppDemo/umeng_ios_social_sdk_4.2.3_arm64_custom/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.2.5",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(PROJECT_DIR)/UMSocial_Sdk_4.2",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/UMSocial_Sdk_Extra_Frameworks/Sina",
+					"$(PROJECT_DIR)/FaceppPhotoPickerDemo/UMSocial_Sdk_4.2.5",
+					"$(PROJECT_DIR)/FaceppPhotoPickerDemo/UMSocial_Sdk_Extra_Frameworks/Wechat",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tigerEN.TXTBeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b4f8519b-a8f2-454f-aec4-6d8d391edf69";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C72222221666371700D74087 /* Build configuration list for PBXProject "FaceppSDK+Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72222441666371700D74087 /* Debug */,
+				C72222451666371700D74087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72222461666371700D74087 /* Build configuration list for PBXNativeTarget "FaceppSDK+Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72222471666371700D74087 /* Debug */,
+				C72222481666371700D74087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CE8D7F166F4A25003E07C5 /* Build configuration list for PBXNativeTarget "FaceppPhotoPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CE8D80166F4A25003E07C5 /* Debug */,
+				C7CE8D81166F4A25003E07C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C722221F1666371700D74087 /* Project object */;
+}
